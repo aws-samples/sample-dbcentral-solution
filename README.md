@@ -17,7 +17,6 @@
 DBCentral Monitoring Solution is a unified observability platform that consolidates monitoring for all your AWS database services into a single, powerful interface. It seamlessly integrates CloudWatch metrics with AWS metadata across multiple regions and accounts, providing comprehensive visibility that eliminates blind spots and reduces complexity. Unlike traditional monitoring approaches that require constant console-switching, DBCentral delivers real-time insights that enable your teams to proactively identify performance issues, optimize database operations, and maintain peak efficiency—all through one centralized monitoring hub designed specifically for AWS database environment
 
 
-
 ### Key features
 
 - Complete Database Visibility - See all your database instances and clusters at once with simple dashboards that combine metrics and performance data in clear, meaningful displays.
