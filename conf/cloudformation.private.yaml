@@ -38,7 +38,7 @@ Metadata:
 Parameters:
   GitHubRepositoryUrl:
     Type: String    
-    Default : https://github.com/snunezcode/dbcentral-monitoring.git
+    Default : https://github.com/aws-samples/sample-dbcentral-solution.git
    
   AppUser:
     Type: String    
