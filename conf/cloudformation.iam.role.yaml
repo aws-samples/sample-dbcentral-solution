@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "DBCentral Monitoring Solution - Cross Account Role (uksb-fclfjp5a7h)"
+Parameters:
+  RoleARN:
+      Type: String
+      Description: IAM ARN Role for Central Account
+Resources:
+
+
+    IAMRoleDBCentralSolutionTarget:
+      Type: "AWS::IAM::Role"
+      Properties:
+          Path: "/"
+          RoleName: "IAMRoleDBCentralSolution"
+          AssumeRolePolicyDocument: 
+              Fn::Sub:
+                - |            
+                  {
+                      "Version": "2012-10-17",
+                      "Statement": [
+                          {
+                              "Effect": "Allow",
+                              "Principal": {
+                                  "AWS": "${RoleARN}"
+                              },
+                              "Action": "sts:AssumeRole"
+                          }
+                      ]
+                  }
+                - {
+                    AppRunnerRole: !GetAtt IAMRoleInstanceAppRunner.Arn
+                  }    
+          Policies:
+          - PolicyName: "policy-dbcentral"
+            PolicyDocument: !Sub |
+                  {
+                      "Version": "2012-10-17",
+                      "Statement": [
+                          {
+                              "Effect": "Allow",
+                              "Action": [
+                                  "dsql:ListClusters",
+                                  "dsql:ListTagsForResource",
+                                  "dsql:GetCluster",
+                                  "cloudwatch:GetMetricData"
+                              ],
+                              "Resource": "*"
+                          }
+                      ]
+                  }
+
