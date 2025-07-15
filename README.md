@@ -14,33 +14,33 @@
 <a name="section-1"></a>
 ## 1.- What is DBCentral Monitoring Solution ?
 
-DBCentral Monitoring Solution is a unified observability platform that consolidates monitoring for all your AWS database services into a single, powerful interface. It seamlessly integrates CloudWatch metrics with AWS metadata across multiple regions and accounts, providing comprehensive visibility that eliminates blind spots and reduces complexity. Unlike traditional monitoring approaches that require constant console-switching, DBCentral delivers real-time insights that enable your teams to proactively identify performance issues, optimize database operations, and maintain peak efficiency—all through one centralized monitoring hub designed specifically for AWS database environment
+DBCentral Monitoring Solution is a unified observability platform that consolidates monitoring for all your AWS database services into a single interface. It integrates CloudWatch metrics with AWS metadata across multiple regions and accounts, providing visibility and reducing complexity. DBCentral delivers near real-time insights that enable your teams to identify performance issues, optimize database operations, and maintain efficiency through one centralized monitoring hub built for AWS database environments.
 
 
 ### Key features
 
-- Complete Database Visibility - See all your database instances and clusters at once with simple dashboards that combine metrics and performance data in clear, meaningful displays.
+- Complete Database Visibility - See all your database resources at once with simple dashboards that combine metrics and performance data in clear, meaningful displays.
 
-- Cross-Region Monitoring - Track databases across AWS regions from one screen with visual maps showing replication status and performance at a glance.
+- Cross-Region Monitoring - Track database resources across AWS regions from one screen with visual maps showing replication status and performance at a glance.
 
-- Multi-Account Management - Monitor instances and clusters from any AWS account without switching consoles, bringing your entire database fleet into a single, unified view.
+- Multi-Account Management - Monitor database resources from any AWS account without switching consoles, bringing your entire database fleet into a single, unified view.
 
-- Smart Performance Visualization - Evaluate database health at a glance with our thoughtfully designed UI that presents key performance metrics in a clear, intuitive format for faster analysis and decision-making.
+- Smart Performance Visualization - Evaluate database resources health at a glance with our thoughtfully designed UI that presents key performance metrics in a clear, intuitive format for faster analysis and decision-making.
 
 
 ### Use cases
 
 - #### Rapid Incident Response
-When performance degrades, quickly pinpoint whether the issue lies in your database, network, or application layer. DBCentral Monitoring consolidates critical metrics on one screen, reducing troubleshooting time.
+When performance degrades, quickly pinpoint whether the issue lies in your database resources, network, or application layer. DBCentral Monitoring consolidates critical metrics on one screen, reducing troubleshooting time.
 
 - #### Hands-On Database Learning
-Demystify how databases actually work. See performance metrics in context, understand what each number really means for your workloads, and gain practical knowledge about database engine behavior through clear, real-time visualizations.
+Demystify how database resource actually work. See performance metrics in context, understand what each number really means for your workloads, and gain practical knowledge about database engine behavior through clear, real-time visualizations.
 
 - #### Unified Cross-Region Visibility
-Break down monitoring silos with our single-pane view of databases spanning multiple regions. Track replication status, compare performance across geographies, and ensure consistent operation of your global database footprint—all without switching between regional consoles.
+Break down monitoring silos with our single-pane view of database resource spanning multiple regions. Track replication status, compare performance across geographies, and ensure consistent operation of your global database footprint—all without switching between regional consoles.
 
 - #### Cross-Account Observability
-Monitor your entire database fleet regardless of AWS account boundaries. Gain comprehensive visibility across development, testing, and production environments in one unified interface, eliminating blind spots and providing complete organizational database awareness.
+Monitor your entire database resources fleet regardless of AWS account boundaries. Gain comprehensive visibility across development, testing, and production environments in one unified interface, eliminating blind spots and providing complete organizational database awareness.
 
 ### Database engines supported
 
