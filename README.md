@@ -44,11 +44,11 @@ Monitor your entire database fleet regardless of AWS account boundaries. Gain co
 
 ### Database engines supported
 
-- Amazon Aurora DSQL **🎉 New**
-- Amazon DynamoDB **⏳ Coming Soon**
-- Amazon MemoryDB & Elasticache **⏳ Coming Soon**
-- Amazon Aurora MySQL-Compatible & PostgreSQL-Compatible Edition **⏳ Coming Soon**
-- Amazon DocumentDB **⏳ Coming Soon**
+- Amazon Aurora DSQL ( **🎉 New** )
+- Amazon DynamoDB ( **⏳ Coming Soon** )
+- Amazon MemoryDB & Elasticache ( **⏳ Coming Soon** )
+- Amazon Aurora MySQL-Compatible & PostgreSQL-Compatible Edition ( **⏳ Coming Soon** )
+- Amazon DocumentDB ( **⏳ Coming Soon** )
 
 
 <a name="section-2"></a>
